@@ -51,7 +51,7 @@ export class Player {
 
     }
     draw(context){
-        context.fillStyle = 'white';
+        context.fillStyle = 'gray';
         context.fillRect(this.x, this.y, this.width, this.height);
         context.drawImage(this.image,this.frameX * this.width, this.frameY * this.height,this.width,this.height, this.x, this.y, this.width, this.height);
     }
